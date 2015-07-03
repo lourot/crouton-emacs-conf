@@ -8,3 +8,6 @@
 ;; Makes emacs kill (i.e. copy) to the clipboard.
 ;; See http://stackoverflow.com/questions/64360/how-to-copy-text-from-emacs-to-another-application-on-linux
 (setq x-select-enable-clipboard t)
+
+;; Be able to open the emacs command prompt from a terminal:
+(add-to-list 'term-bind-key-alist '("M-x" . execute-extended-command))
