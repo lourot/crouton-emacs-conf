@@ -2,13 +2,14 @@
 ;; https://github.com/AurelienLourot/crouton-emacs-conf
 ;;--------------------------------------------------------------------------------------------------
 
-;; Middle-click support. See http://lourot.com/articles/crouton-emacs-middle-click
+;; Middle-click support.
+;; See https://github.com/AurelienLourot/crouton-articles/blob/master/crouton-emacs-middle-click.md
 (global-set-key (kbd "<M-mouse-2>") 'mouse-yank-primary)
 
 ;; Delete support.
 ;; You can make [Shift] + [Backspace] behave like [Del] with
 ;; xmodmap -e "keycode 22 shift = BackSpace Delete"
-;; See http://lourot.com/articles/crouton-caps-lock
+;; See https://github.com/AurelienLourot/crouton-articles/blob/master/crouton-caps-lock.md
 (global-set-key (kbd "<S-delete>") 'delete-char)
 
 ;; Makes emacs kill (i.e. copy) to the clipboard.
