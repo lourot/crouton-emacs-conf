@@ -1,2 +1,2 @@
-http://lourot.com/articles/crouton-emacs-middle-click
+https://github.com/AurelienLourot/crouton-articles/blob/master/crouton-emacs-middle-click.md
 https://github.com/AurelienLourot/my-emacs-config
